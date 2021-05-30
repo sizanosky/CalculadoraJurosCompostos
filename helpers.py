@@ -5,7 +5,7 @@ def cabecalho(texto):
     print("*" * len(titulo))
 
 
-def juros_compostos(principal, taxa, periodo):
+def juros_compostos(valor, taxa, periodo):
     """
     Função para calcular juros compostos.
 
@@ -22,5 +22,5 @@ def juros_compostos(principal, taxa, periodo):
     :return: float (resultado)
     """
 
-    calculo_juros = (principal * (pow((1 + taxa / 100), periodo)))
+    calculo_juros = (valor * (pow((1 + taxa / 100), periodo)))
     return calculo_juros
