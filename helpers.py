@@ -16,11 +16,11 @@ def juros_compostos(valor, taxa, periodo):
     - R é a taxa
     - T é o período de tempo
 
-    :param principal: float
+    :param valor: float
     :param taxa: int/float
     :param periodo: int
     :return: float (resultado)
     """
 
-    calculo_juros = (valor * (pow((1 + taxa / 100), periodo)))
+    calculo_juros = valor * (pow((1 + taxa / 100), periodo))
     return calculo_juros

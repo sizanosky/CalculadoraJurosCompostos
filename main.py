@@ -8,9 +8,9 @@
 
 import locale
 from mortgage import Loan
-from helpers import cabecalho, juros_compostos
+from helpers import *
 
-locale.setlocale(locale.LC_MONETARY, 'pt_BR')
+locale.setlocale(locale.LC_MONETARY, 'pt_br')
 
 print("Hello World!!!")
 
